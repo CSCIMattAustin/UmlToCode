@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="CarAssembler.cs" />
+    <Compile Include="CarFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suzuki.cs" />
+    <Compile Include="SuzukiFactory.cs" />
+    <Compile Include="Toyota.cs" />
+    <Compile Include="ToyotaFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
